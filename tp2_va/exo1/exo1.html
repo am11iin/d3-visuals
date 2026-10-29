@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TP VD - Titanic</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f5f6fa;
+    }
+
+    h1, h2 { color: #243b63; }
+
+    .chart {
+      background: white;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Les passagers du Titanic</h1>
+
+  <div class="chart">
+    <h2>Âges des passagers selon le genre</h2>
+    <div id="kdeChart"></div>
+    <p>Les zones superposées comparent la distribution des âges des hommes et des femmes à bord du Titanic. Les passagers dont l’âge n’est pas renseigné sont ignorés.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
